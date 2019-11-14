@@ -1,0 +1,41 @@
+Inheritance (IS-A):
+The process of acquiring properties of parent/super/base class into child/sub/derived class is known as inheritance. We can achieve
+code re-usability by implementing inheritance.
+
+Why we need Inheritance:- when we want to create a new class and there is already a class that includes some of the code that we want,
+     we can derive our new class from the existing class. By doing this, we are reusing the fields and methods of the
+     existing class
+
+Types of inheritance:
+
+1. Single-level: Here Sub-class inherits the features of the super-class. In the given example super class which is "SingleLevelInheritance"
+                 extended by sub class "SingleLevelInheritance1" where we are able to access the method inside the super
+                 class by instantiating / creating a new object only for sub class in the Main class.
+
+2. Multi-level: For Multilevel Inheritance consider 3 classes 1.Base-class, 2.Intermediate-class and 3.Derived-class
+                For the given example "MultiLevelInheritance.java" acts as base class for "MultiLevelInheritance1.java"
+                which in-turns acts as base class for "MultiLevelInheritance2.java".
+
+3. Multiple-Inheritance: In Multiple inheritance ,one class can have more than one superclass and inherit features from
+                         all parent classes. In java Multiple-Inheritance is achieved with only interfaces not with classes.
+
+4. Hierarchical-Inheritance: In Hierarchical Inheritance, one class serves as a superclass (base class) for more than one
+                             sub class
+
+5. Hybrid-Inheritance: In java like Multiple-Inheritance, Hybrid-Inheritance also achieved through interfaces only.
+                       In Hybrid-Inheritance we will make use of 3 interfaces and 1 class where among 3 interfaces
+                       one interface is parent for other 2 interfaces like Hierarchical-Inheritance and the class will
+                       implement the parent/base interface to achieve Hybrid-Inheritance.
+
+Association: With association we can achieve relationship between entities with the Objects of the entities.
+             Association is of 2 types. 1. Aggregation 2. Composition
+1. Aggregation (HAS-A): This is a uni-directional relation where the relationship between entities were weak (i.e)
+                        the entities can survive individually.
+                        Ex: A customer of a bank.
+                            Uni-Directional: A Bank has a customer but the vise-versa not possible (i.e) customer doesn't
+                                             have bank.
+                            Individual-Existence: If we delete customer it won't effect the bank.
+2. Composition (Part-OF): This is a bi-directional relation where the relation between entities were strong (i.e) the entities
+                           cannot exist without other.
+                           Ex:
+
